@@ -43,8 +43,8 @@ importers:
         specifier: ^7.18.0
         version: 7.18.0(eslint@8.57.0)(typescript@5.5.3)
       autoprefixer:
-        specifier: ^10.4.19
-        version: 10.4.19(postcss@8.4.39)
+        specifier: ^10.4.20
+        version: 10.4.20(postcss@8.4.39)
       concurrently:
         specifier: ^8.2.2
         version: 8.2.2
@@ -98,7 +98,7 @@ importers:
         version: 1.1.6
       tailwindcss:
         specifier: ^3.4.6
-        version: 3.4.6(ts-node@10.9.2(@swc/core@1.6.13)(@types/node@20.14.10)(typescript@5.5.3))
+        version: 3.4.6(ts-node@10.9.2(@types/node@20.14.10)(typescript@5.5.3))
       tslib:
         specifier: ^2.6.3
         version: 2.6.3
@@ -150,7 +150,7 @@ importers:
         version: 0.30.10
       ts-loader:
         specifier: ^9.5.1
-        version: 9.5.1(typescript@5.5.3)(webpack@5.92.1(@swc/core@1.6.13)(esbuild@0.23.0))
+        version: 9.5.1(typescript@5.5.3)(webpack@5.92.1(esbuild@0.23.0))
 
   packages/dev-utils:
     devDependencies:
@@ -1365,8 +1365,8 @@ packages:
   ast-types-flow@0.0.8:
     resolution: {integrity: sha512-OH/2E5Fg20h2aPrbe+QL8JZQFko0YZaF+j4mnQ7BGhfavO7OpSLa8a0y9sBwomHdSbkhTS8TQNayBfnW5DwbvQ==}
 
-  autoprefixer@10.4.19:
-    resolution: {integrity: sha512-BaENR2+zBZ8xXhM4pUaKUxlVdxZ0EZhjvbopwnXmxRUfqDmwSpC2lAi/QXvx7NRdPCo1WKEcEF6mV64si1z4Ew==}
+  autoprefixer@10.4.20:
+    resolution: {integrity: sha512-XY25y5xSv/wEoqzDyXXME4AFfkZI0P23z6Fs3YgymDnKJkCGOnkL0iTxCa85UTqaSgfcqyf3UA6+c7wUvx/16g==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
     peerDependencies:
@@ -1405,6 +1405,11 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
 
+  browserslist@4.23.3:
+    resolution: {integrity: sha512-btwCFJVjI4YWDNfau8RhZ+B1Q/VLoUITrm3RlP6y1tYGWIOa+InuYiRGXUBXo8nA1qKmHMyLB/iVQg5TT4eFoA==}
+    engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
+    hasBin: true
+
   buffer-from@1.1.2:
     resolution: {integrity: sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==}
 
@@ -1422,6 +1427,9 @@ packages:
 
   caniuse-lite@1.0.30001640:
     resolution: {integrity: sha512-lA4VMpW0PSUrFnkmVuEKBUovSWKhj7puyCg8StBChgu298N1AtuF1sKWEvfDuimSEDbhlb/KqPKC3fs1HbuQUA==}
+
+  caniuse-lite@1.0.30001653:
+    resolution: {integrity: sha512-XGWQVB8wFQ2+9NZwZ10GxTYC5hk0Fa+q8cSkr0tgvMhYhMHP/QC+WTgrePMDBWiWc/pV+1ik82Al20XOK25Gcw==}
 
   chalk@4.1.2:
     resolution: {integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==}
@@ -1601,6 +1609,9 @@ packages:
 
   electron-to-chromium@1.4.818:
     resolution: {integrity: sha512-eGvIk2V0dGImV9gWLq8fDfTTsCAeMDwZqEPMr+jMInxZdnp9Us8UpovYpRCf9NQ7VOFgrN2doNSgvISbsbNpxA==}
+
+  electron-to-chromium@1.5.13:
+    resolution: {integrity: sha512-lbBcvtIJ4J6sS4tb5TLp1b4LyfCdMkwStzXPyAgVgTRAsep4bvrAGaBOP7ZJtQMNJpSQ9SqG4brWOroNaQtm7Q==}
 
   emoji-regex@10.3.0:
     resolution: {integrity: sha512-QpLs9D9v9kArv4lfDEgg1X/gN5XLnf/A6l9cs8SPZLRZR3ZkY9+kwIQTxm+fsSej5UMYGE8fdoaZVIBlqG0XTw==}
@@ -2339,6 +2350,9 @@ packages:
 
   node-releases@2.0.14:
     resolution: {integrity: sha512-y10wOWt8yZpqXmOgRo77WaHEmhYQYGNA6y421PKsKYWEK8aW+cqAphborZDhqfyKrbZEN92CN1X2KbafY2s7Yw==}
+
+  node-releases@2.0.18:
+    resolution: {integrity: sha512-d9VeXT4SJ7ZeOqGX6R5EM022wpL+eWPooLI+5UpWn2jCT1aosUQEhQP214x33Wkwx3JQMvIm+tIoVOdodFS40g==}
 
   normalize-path@3.0.0:
     resolution: {integrity: sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==}
@@ -4274,10 +4288,10 @@ snapshots:
 
   ast-types-flow@0.0.8: {}
 
-  autoprefixer@10.4.19(postcss@8.4.39):
+  autoprefixer@10.4.20(postcss@8.4.39):
     dependencies:
-      browserslist: 4.23.1
-      caniuse-lite: 1.0.30001640
+      browserslist: 4.23.3
+      caniuse-lite: 1.0.30001653
       fraction.js: 4.3.7
       normalize-range: 0.1.2
       picocolors: 1.0.1
@@ -4318,6 +4332,13 @@ snapshots:
       node-releases: 2.0.14
       update-browserslist-db: 1.1.0(browserslist@4.23.1)
 
+  browserslist@4.23.3:
+    dependencies:
+      caniuse-lite: 1.0.30001653
+      electron-to-chromium: 1.5.13
+      node-releases: 2.0.18
+      update-browserslist-db: 1.1.0(browserslist@4.23.3)
+
   buffer-from@1.1.2: {}
 
   call-bind@1.0.7:
@@ -4333,6 +4354,8 @@ snapshots:
   camelcase-css@2.0.1: {}
 
   caniuse-lite@1.0.30001640: {}
+
+  caniuse-lite@1.0.30001653: {}
 
   chalk@4.1.2:
     dependencies:
@@ -4518,6 +4541,8 @@ snapshots:
   eastasianwidth@0.2.0: {}
 
   electron-to-chromium@1.4.818: {}
+
+  electron-to-chromium@1.5.13: {}
 
   emoji-regex@10.3.0: {}
 
@@ -5422,6 +5447,8 @@ snapshots:
 
   node-releases@2.0.14: {}
 
+  node-releases@2.0.18: {}
+
   normalize-path@3.0.0: {}
 
   normalize-range@0.1.2: {}
@@ -5556,7 +5583,7 @@ snapshots:
       camelcase-css: 2.0.1
       postcss: 8.4.39
 
-  postcss-load-config@4.0.2(postcss@8.4.39)(ts-node@10.9.2(@swc/core@1.6.13)(@types/node@20.14.10)(typescript@5.5.3)):
+  postcss-load-config@4.0.2(postcss@8.4.39)(ts-node@10.9.2(@types/node@20.14.10)(typescript@5.5.3)):
     dependencies:
       lilconfig: 3.1.2
       yaml: 2.4.5
@@ -6267,7 +6294,7 @@ snapshots:
 
   tailwind-merge@2.4.0: {}
 
-  tailwindcss@3.4.6(ts-node@10.9.2(@swc/core@1.6.13)(@types/node@20.14.10)(typescript@5.5.3)):
+  tailwindcss@3.4.6(ts-node@10.9.2(@types/node@20.14.10)(typescript@5.5.3)):
     dependencies:
       '@alloc/quick-lru': 5.2.0
       arg: 5.0.2
@@ -6286,7 +6313,7 @@ snapshots:
       postcss: 8.4.39
       postcss-import: 15.1.0(postcss@8.4.39)
       postcss-js: 4.0.1(postcss@8.4.39)
-      postcss-load-config: 4.0.2(postcss@8.4.39)(ts-node@10.9.2(@swc/core@1.6.13)(@types/node@20.14.10)(typescript@5.5.3))
+      postcss-load-config: 4.0.2(postcss@8.4.39)(ts-node@10.9.2(@types/node@20.14.10)(typescript@5.5.3))
       postcss-nested: 6.0.1(postcss@8.4.39)
       postcss-selector-parser: 6.1.0
       resolve: 1.22.8
@@ -6296,16 +6323,15 @@ snapshots:
 
   tapable@2.2.1: {}
 
-  terser-webpack-plugin@5.3.10(@swc/core@1.6.13)(esbuild@0.23.0)(webpack@5.92.1(@swc/core@1.6.13)(esbuild@0.23.0)):
+  terser-webpack-plugin@5.3.10(esbuild@0.23.0)(webpack@5.92.1(esbuild@0.23.0)):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.25
       jest-worker: 27.5.1
       schema-utils: 3.3.0
       serialize-javascript: 6.0.2
       terser: 5.31.1
-      webpack: 5.92.1(@swc/core@1.6.13)(esbuild@0.23.0)
+      webpack: 5.92.1(esbuild@0.23.0)
     optionalDependencies:
-      '@swc/core': 1.6.13
       esbuild: 0.23.0
 
   terser@5.31.1:
@@ -6341,7 +6367,7 @@ snapshots:
 
   ts-interface-checker@0.1.13: {}
 
-  ts-loader@9.5.1(typescript@5.5.3)(webpack@5.92.1(@swc/core@1.6.13)(esbuild@0.23.0)):
+  ts-loader@9.5.1(typescript@5.5.3)(webpack@5.92.1(esbuild@0.23.0)):
     dependencies:
       chalk: 4.1.2
       enhanced-resolve: 5.17.0
@@ -6349,7 +6375,7 @@ snapshots:
       semver: 7.6.2
       source-map: 0.7.4
       typescript: 5.5.3
-      webpack: 5.92.1(@swc/core@1.6.13)(esbuild@0.23.0)
+      webpack: 5.92.1(esbuild@0.23.0)
 
   ts-node@10.9.2(@swc/core@1.6.13)(@types/node@20.14.10)(typescript@5.5.3):
     dependencies:
@@ -6469,6 +6495,12 @@ snapshots:
       escalade: 3.1.2
       picocolors: 1.0.1
 
+  update-browserslist-db@1.1.0(browserslist@4.23.3):
+    dependencies:
+      browserslist: 4.23.3
+      escalade: 3.1.2
+      picocolors: 1.0.1
+
   uri-js@4.4.1:
     dependencies:
       punycode: 2.3.1
@@ -6497,7 +6529,7 @@ snapshots:
 
   webpack-sources@3.2.3: {}
 
-  webpack@5.92.1(@swc/core@1.6.13)(esbuild@0.23.0):
+  webpack@5.92.1(esbuild@0.23.0):
     dependencies:
       '@types/eslint-scope': 3.7.7
       '@types/estree': 1.0.5
@@ -6520,7 +6552,7 @@ snapshots:
       neo-async: 2.6.2
       schema-utils: 3.3.0
       tapable: 2.2.1
-      terser-webpack-plugin: 5.3.10(@swc/core@1.6.13)(esbuild@0.23.0)(webpack@5.92.1(@swc/core@1.6.13)(esbuild@0.23.0))
+      terser-webpack-plugin: 5.3.10(esbuild@0.23.0)(webpack@5.92.1(esbuild@0.23.0))
       watchpack: 2.4.1
       webpack-sources: 3.2.3
     transitivePeerDependencies:
